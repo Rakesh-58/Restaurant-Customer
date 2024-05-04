@@ -1,0 +1,29 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/home.css">
+	<title>Home</title>
+</head>
+<body>
+	<article class="logo">
+		<div class="img-container">
+			<img src="images/logo.png" class="img-size">				
+		</div>	
+		<h2> BR Restaurant</h2>			
+	</article>
+	<form action="home" method="post">
+        <div class="main">
+            <div class="pad">
+            	<input type="submit" name="dest" value="Table Reservation" class="order">
+            </div>
+            <div class="pad">
+            	<input type="submit" name="dest" value="Scan QR to order food">
+            </div>        
+        </div>
+    </form>
+</body>
+</html>
